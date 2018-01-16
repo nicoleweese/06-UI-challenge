@@ -1,0 +1,77 @@
+.grid-container {
+    width : 100%;
+    max-width : 960px; 
+}
+
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px; 
+    width: 100%; 
+}
+
+.col-5of5 {
+    width: 100%; 
+}
+
+.col-1of5 {
+    width: 100%;
+}
+
+.col-4of5 {
+    width: 100%;
+}
+
+.col-2of4 {
+    width: 100%;
+    display: inline-block;
+}
+
+.col-1of4 {
+    width: 50%;
+}
+
+.col-4of4 {
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+    [class*='col-'] {
+        float: left;
+        min-height: 1px; 
+        width: 20%; 
+    }
+    
+    .col-1{
+        width: 20%; 
+    }
+    .col-2{
+        width: 40%; 
+    }
+    .col-3{
+        width: 60%; 
+    }
+    .col-4{
+        width: 80%;
+    }
+    .col-5{
+        width: 100%;
+    }    
+}
