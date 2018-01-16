@@ -12,3 +12,8 @@ div {
     outline: .25px solid black;
     background-color: rgb(228, 228, 228);
 }
+
+span {
+    font-family: verdana;
+    font-size: 3vw;
+}
